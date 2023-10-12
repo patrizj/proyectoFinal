@@ -16,7 +16,7 @@ let MongoClient = mongodb.MongoClient;
 
 // CONEXIÓN CON MONGODB VÍA MONGO CLIENT
 
-MongoClient.connect("mongodb://0.0.0.0:27017", function (err, client) {
+MongoClient.connect("mongodb+srv://patriciazarzuelajimenez:v0zeKUQ8TTLswtGb@fci.3tppn4p.mongodb.net/", function (err, client) {
   //Si la conexión es correcta, será null.
   if (err != null) {
     console.log(err);
