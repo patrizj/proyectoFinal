@@ -11,7 +11,7 @@ function FormularioVentas() {
     
 
     useEffect(() => {
-        fetch("http://localhost:3001/marcas", {
+        fetch("https://patricia-proyecto-final.onrender.com/marcas", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -43,7 +43,7 @@ function FormularioVentas() {
     }
 
     function getModelos(marcaId){
-        fetch(`http://localhost:3001/modelos?id=${marcaId}`, {
+        fetch(`https://patricia-proyecto-final.onrender.com/modelos?id=${marcaId}`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",

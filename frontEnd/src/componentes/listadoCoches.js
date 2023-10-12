@@ -6,7 +6,7 @@ function ListadoCoches() {
     
 
     useEffect(() => {
-        fetch("http://localhost:3001/vehiculos", {
+        fetch("https://patricia-proyecto-final.onrender.com/vehiculos", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",

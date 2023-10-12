@@ -16,7 +16,7 @@ function GestionFlota() {
     const [vehiculoSelect, setVehiculoSelect] = useState(null);
 
     useEffect(() => {
-        fetch("http://localhost:3001/vehiculos", {
+        fetch("https://patricia-proyecto-final.onrender.com/vehiculos", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -35,7 +35,7 @@ function GestionFlota() {
             referencia: idVehiculo,
         };
 
-        fetch("http://localhost:3001/vehiculos", {
+        fetch("https://patricia-proyecto-final.onrender.com/vehiculos", {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/JSON",

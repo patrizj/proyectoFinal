@@ -37,7 +37,7 @@ function ModalCrud({ show, onHide, vehiculo, key }) {
       imagen: imagenValue
     }
 
-    fetch("http://localhost:3001/vehiculos", {
+    fetch("https://patricia-proyecto-final.onrender.com/vehiculos", {
       method: "POST",
       headers: {
         "Content-Type": "application/JSON",
@@ -60,7 +60,7 @@ function ModalCrud({ show, onHide, vehiculo, key }) {
     }
     
     
-    fetch("http://localhost:3001/vehiculos", {
+    fetch("https://patricia-proyecto-final.onrender.com/vehiculos", {
       method: "PUT",
       headers: {
         "Content-Type": "application/JSON",
